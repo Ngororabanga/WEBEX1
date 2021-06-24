@@ -1,0 +1,111 @@
+
+.plan1{
+    background-color:hsl(185, 75%, 39%) ;
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-flow: column;}
+.top_img{
+    
+    height: 400px;
+    width: 500px;
+    float: left;
+    align-self:flex-start;
+         }
+.top{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.plan2{
+    border-radius:25px; 
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    
+    object-fit: fill;
+    align-self:center;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    
+   }
+.victor1{ border-radius: 50%;
+    border: 5px solid;
+    border-color: aliceblue;
+    position: absolute;
+    top: 25%;
+    object-fit: fill;
+    margin-left: 33%;
+
+   }
+   .header_card{
+    width:100%;
+    height: 150px;
+    background-image: url(image/bgcd.svg);
+    align-self:flex-start;
+        order:1; }
+    .bodycard{
+        background-color:white;
+        width:100%;
+        height: 150px;
+        align-self:center;
+        
+        order:2;
+    }
+    .name{font-family:'Kumbh,Sans';
+        margin-left: 30%;
+        margin-top: 20%;
+    }
+    .age{color:hsl(227, 10%, 46%) }
+    .city{
+        font-family:'Kumbh,Sans';
+        margin-left: 40%;
+    color:hsl(227, 10%, 46%);
+    border-bottom 3px; ;
+}
+    .footercard{
+        background-color: white;
+        border-width: 1pt;
+        width:100%;
+        height: 100px;
+        align-self:flex-end;
+        order:3;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .followers{align-self:auto;
+        
+        width:25%;
+        height: 100%;
+}
+    .likes{align-self: auto;
+        
+        width:25%;
+        height: 100%;
+     object-fit: fill;}
+    .photos{align-self: auto;
+        
+        width:25%;
+        height: 100%;}
+        
+
+.bottom_img{
+    
+    width: 500px;
+    height: 400px;
+    align-self:flex-end;
+    size: 50px; 
+}
+.bottom{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
